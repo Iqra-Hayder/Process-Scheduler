@@ -1,131 +1,109 @@
-Process Scheduling Simulation (OS Semester Project)
+# 🧠 **Process Scheduling Simulation (OS Semester Project)**
 
-This project is a graphical simulation of CPU process scheduling algorithms developed using Python, Tkinter, and Turtle graphics.
-It visually demonstrates how different scheduling algorithms execute processes and helps in understanding core Operating System concepts.
+This project is a **graphical simulation of CPU process scheduling algorithms** developed using **Python**, **Tkinter**, and **Turtle graphics**.  
+It visually demonstrates how different scheduling algorithms execute processes and helps in understanding core **Operating System concepts**.
 
-This project was developed as part of the Operating Systems (OS) semester project.
+This project was developed as part of the **Operating Systems (OS) semester project**.
 
-📚 Table of Contents
+---
 
-Overview
+## 📚 **Table of Contents**
+- [Overview](#-overview)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Installation](#-installation)
+- [How to Run](#-how-to-run)
+- [User Interface](#-user-interface)
+- [Scheduling Algorithms](#-scheduling-algorithms)
+- [Working Mechanism](#-working-mechanism)
+- [Screenshots](#-screenshots)
+- [License](#-license)
+- [Author](#-author)
 
-Features
+---
 
-Technologies Used
+## 🔍 **Overview**
+The **Process Scheduling Simulator** provides a **visual and interactive** way to understand how **CPU scheduling algorithms** work.  
+Users can input **process data** and observe the **execution order** using a **Gantt Chart**, along with calculated **performance metrics**.
 
-Installation
+---
 
-How to Run
+## ✨ **Features**
+- 📊 **Gantt chart visualization** of process execution
+- ⚙️ **Simulation of popular CPU scheduling algorithms**:
+  - **First-Come, First-Served (FCFS)**
+  - **Shortest Job First (SJF – Preemptive & Non-Preemptive)**
+  - **Round Robin (RR)**
+- 🧮 **Automatic calculation** of:
+  - **Waiting Time**
+  - **Turnaround Time**
+  - **Response Time**
+- 🖥️ **Interactive GUI** built using **Tkinter**
+- 🎨 **Visual execution** using **Turtle graphics**
 
-User Interface
+---
 
-Scheduling Algorithms
+## 🛠️ **Technologies Used**
+- **Python 3**
+- **Tkinter** (**GUI**)
+- **Turtle Graphics** (**Visualization**)
+- **Operating System Concepts**
 
-Working Mechanism
+---
 
-Screenshots
+## 💻 **Installation**
 
-License
-
-Author
-
-🔍 Overview
-
-The Process Scheduling Simulator provides a visual and interactive way to understand how CPU scheduling algorithms work.
-Users can input process data and observe execution order using a Gantt Chart, along with calculated performance metrics.
-
-✨ Features
-
-📊 Gantt chart visualization of process execution
-
-⚙️ Simulation of popular CPU scheduling algorithms:
-
-FCFS
-
-SJF (Preemptive & Non-Preemptive)
-
-Round Robin
-
-🧮 Automatic calculation of:
-
-Waiting Time
-
-Turnaround Time
-
-Response Time
-
-🖥️ Interactive GUI built using Tkinter
-
-🎨 Visual execution using Turtle graphics
-
-🛠️ Technologies Used
-
-Python 3
-
-Tkinter (GUI)
-
-Turtle Graphics (Visualization)
-
-Operating System Concepts
-
-💻 Installation
-
-Clone the repository
-
+### **1. Clone the repository**
+```bash
 git clone https://github.com/Iqra-Hayder/Process-Scheduler.git
-
-
-Navigate to the project folder
-
+### **2. Navigate to the project folder**
+```bash
 cd Process-Scheduler
-
 
 ✅ No external libraries required
 Tkinter and Turtle come pre-installed with Python.
 
 ▶️ How to Run
+```bash
 python simulator.py
 
 🖥️ User Interface
 
 The simulator provides a simple and user-friendly interface consisting of:
+**Input Section**
 
-Input Section
+-Process ID
 
-Process ID
+-Arrival Time
 
-Arrival Time
+-Burst Time
 
-Burst Time
+-Algorithm Selection
 
-Algorithm Selection
+-FCFS
 
-Radio buttons to choose:
+-SJF
 
-FCFS
+-Round Robin
 
-SJF
+**Controls**
 
-Round Robin
+-Add or remove processes
 
-Controls
+-Start Simulation button
 
-Add or remove processes
+**Output**
 
-Start simulation button
+-Gantt chart visualization
 
-Output
+-Average waiting time
 
-Gantt chart visualization
+-Average turnaround time
 
-Average waiting time
-
-Average turnaround time
-
-Average response time
+-Average response time
 
 ⚙️ Scheduling Algorithms
-🔹 First-Come, First-Served (FCFS)
+First-Come, First-Served (FCFS)
 
 Executes processes in the order they arrive
 
@@ -133,7 +111,7 @@ Non-preemptive
 
 Simple but may cause long waiting times
 
-🔹 Shortest Job First (SJF)
+Shortest Job First (SJF)
 
 Executes the process with the shortest burst time
 
@@ -145,7 +123,7 @@ Non-preemptive
 
 Minimizes average waiting time
 
-🔹 Round Robin (RR)
+Round Robin (RR)
 
 Each process gets a fixed time quantum
 
@@ -155,32 +133,29 @@ Ideal for time-sharing systems
 
 🔄 Working Mechanism
 
-User inputs process data
-
-Selects a scheduling algorithm
-
-Simulator executes algorithm logic
-
-Turtle draws Gantt chart
-
-Performance metrics are calculated and displayed
+     User inputs process data
+     
+     Selects a scheduling algorithm
+     
+     Simulator executes algorithm logic
+     
+     Turtle draws the Gantt chart
+     
+     Performance metrics are calculated and displayed
 
 🖼️ Screenshots
-User Interface
+🖥️ User Interface
 <p align="center"> <img src="./img/User-interface.png"> </p>
-FCFS Output
+📊 FCFS Output
 <p align="center"> <img src="./img/FCFS-example.png"> </p>
-SJF (Non-Preemptive)
+📊 SJF (Non-Preemptive)
 <p align="center"> <img src="./img/SJF-non-preemptive-example.png"> </p>
-SJF (Preemptive)
+📊 SJF (Preemptive)
 <p align="center"> <img src="./img/SJF-preemptive-example.png"> </p>
-Round Robin
+📊 Round Robin
 <p align="center"> <img src="./img/RR-example.png"> </p>
-📄 License
 
-This project is licensed under the MIT License.
-See the LICENSE
- file for details.
+
 
 👩‍💻 Author
 
