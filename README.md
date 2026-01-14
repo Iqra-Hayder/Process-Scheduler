@@ -75,7 +75,7 @@ cd Process-Scheduler
 
 ---
 
-### ### ▶️ How to Run
+### ▶️ How to Run
 
 ```bash
 python simulator.py
@@ -84,9 +84,9 @@ python simulator.py
 
 ---
 
-### ### 🖥️ User Interface
+### 🖥️ User Interface
 
-### ### Input Section
+### Input Section
 
 * **Process ID**
 * **Arrival Time**
@@ -98,12 +98,12 @@ python simulator.py
 
 
 
-### ### Controls
+### Controls
 
 * **Add or remove processes**
 * **Start Simulation button**
 
-### ### Output
+### Output
 
 * **Gantt chart visualization**
 * **Average waiting time**
@@ -112,15 +112,15 @@ python simulator.py
 
 ---
 
-### ### ⚙️ Scheduling Algorithms
+### ⚙️ Scheduling Algorithms
 
-### ### First-Come, First-Served (FCFS)
+### First-Come, First-Served (FCFS)
 
 * Executes processes in the order they arrive
 * **Non-preemptive**
 * Simple but may cause long waiting times
 
-### ### Shortest Job First (SJF)
+### Shortest Job First (SJF)
 
 * Executes the process with the shortest burst time
 * Available in:
@@ -130,7 +130,7 @@ python simulator.py
 
 * Minimizes average waiting time
 
-### ### Round Robin (RR)
+### Round Robin (RR)
 
 * Each process gets a fixed time quantum
 * **Preemptive algorithm**
@@ -138,7 +138,7 @@ python simulator.py
 
 ---
 
-### ### 🔄 Working Mechanism
+### 🔄 Working Mechanism
 
 * User inputs process data
 * Selects a scheduling algorithm
@@ -148,31 +148,31 @@ python simulator.py
 
 ---
 
-### ### 🖼️ Screenshots
+### 🖼️ Screenshots
 
-### ### User Interface
+### User Interface
 
 <p align="center"> <img src="./img/User-interface.png"> </p>
 
-### ### FCFS Output
+### FCFS Output
 
 <p align="center"> <img src="./img/FCFS-example.png"> </p>
 
-### ### SJF (Non-Preemptive)
+### SJF (Non-Preemptive)
 
 <p align="center"> <img src="./img/SJF-non-preemptive-example.png"> </p>
 
-### ### SJF (Preemptive)
+### SJF (Preemptive)
 
 <p align="center"> <img src="./img/SJF-preemptive-example.png"> </p>
 
-### ### Round Robin
+### Round Robin
 
 <p align="center"> <img src="./img/RR-example.png"> </p>
 
 ---
 
-### ### 👩‍💻 Author
+### 👩‍💻 Author
 
 * **Iqra Hayder**
 * **GitHub:** [https://github.com/Iqra-Hayder](https://github.com/Iqra-Hayder)
